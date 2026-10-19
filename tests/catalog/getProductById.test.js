@@ -23,6 +23,9 @@ describe('getProductById', () => {
     expect(result).toBeNull();
   });
 
+
+
+  
   test('возвращает null для несуществующего ID 999', () => {
     const result = getProductById(products, 999);
     expect(result).toBeNull();
